@@ -59,3 +59,34 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.diceCont{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 280px;
+    left: 70px;
+    font-size: 3rem;
+    /* z-index: 22; */
+}
+
+#diceBtn{
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    width: 12.8rem;
+    cursor:pointer;
+    background-color: rgb(75,140,197);
+}
+
+/* @media(max-width:1250px){
+    .diceCont{
+        display: flex;
+        place-items:none;
+        top: 99vh;
+        left: 10vw;
+    }   
+    #diceBtn{
+        width: 200px;
+        margin-left: 20px;
+    }
+} */
