@@ -41,7 +41,7 @@ body{
 
 #p2{
     position: relative;
-    top: -46px;
+    top: -52px;
     left: -62px;
     transition: all linear 1.5sec;
     z-index: 2;
@@ -68,6 +68,8 @@ img{
     left: 70px;
     font-size: 3rem;
     /* z-index: 22; */
+    background-color: rgb(205, 172, 131);
+    padding: 1rem;
 }
 
 #diceBtn{
